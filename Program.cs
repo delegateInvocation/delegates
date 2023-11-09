@@ -33,7 +33,8 @@
             cd5(5);             // Prints 5, five-times
             D td3 = new D(cd3);  // [M1 + M2] - ONE entry in invocation
                                  // list, which is itself a list of two methods.
-
+	    PathTraversalVuln x = new PathTraversalVuln(".");
+	    
         }
     }
 
